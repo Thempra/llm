@@ -2,7 +2,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 from typing import Dict
 
-MODEL_NAME = "tiiuae/falcon-180B-chat-instruct"
+MODEL_NAME = "quantumaikr/falcon-180B-chat-instruct"
 DEFAULT_MAX_LENGTH = 200
 
 
